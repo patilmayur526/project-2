@@ -17,7 +17,7 @@ if($_SESSION['islogin']){
 			<div class=" mb-2">
 				<span class="d-block d-lg-none"><?php echo $user_first_name." ".$user_last_name; ?></span>
 				<span class="d-none d-lg-block">
-					<img class="img-fluid img-profile rounded-circle" src="../../assets/img/faces/profile.jpg" alt="" width="300px;">
+					<img class="img-fluid img-profile rounded-circle" src="../../assets/img/faces/mayur.jpeg" alt="" width="300px;">
 					<h3 class="text-center"><?php echo $user_first_name."".$user_last_name; ?></h3>
 					<h5>Address: </h5>
 					<p><?php echo $user_address; ?></p>
@@ -41,7 +41,8 @@ if($_SESSION['islogin']){
 						<div class="subheading mb-5"><?php echo $user_address; ?>
 							<a href="mailto:example@gmail.com"><?php echo $user_email; ?></a>
 						</div>
-						<p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+						<p class="lead mb-5">Engaged, creative Electronics student, seeking to leverage solid skills in collaboration, communication, and development.
+</p>
 						<div class="social-icons">
 							<a href="https://in.linkedin.com/pub/dir/<?php echo $user_first_name." ".$user_last_name; ?>">
 								<i class="fab fa-linkedin-in"></i>
@@ -88,7 +89,7 @@ if($_SESSION['islogin']){
 								<p>Percent: <?php echo $user_ssc_marks; ?></p>
 							</div>
 							<div class="resume-date text-md-right">
-								<span class="text-color">August 2001 - May 2014</span>
+								<span class="text-color">August 2001 - May 2016</span>
 							</div>
 						</div>
 
@@ -99,7 +100,7 @@ if($_SESSION['islogin']){
 								<p>Percent : <?php echo $user_hsc_marks; ?></p>
 							</div>
 							<div class="resume-date text-md-right">
-								<span class="text-color">August 2014 - May 2016</span>
+								<span class="text-color">August 2016 - May 2018</span>
 							</div>
 						</div>
 						<div class="resume-item d-flex flex-column flex-md-row mb-5">
@@ -109,7 +110,7 @@ if($_SESSION['islogin']){
 								<p>Aggregrate Pointer: <?php echo $user_current_pointer; ?></p>
 							</div>
 							<div class="resume-date text-md-right">
-								<span class="text-color">August 2016 - May 2020</span>
+								<span class="text-color">August 2018 - May 2022</span>
 							</div>
 						</div>
 

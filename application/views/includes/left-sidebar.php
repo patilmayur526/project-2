@@ -4,6 +4,17 @@
 
         Tip 2: you can also add an image using data-image tag
     -->
+    <div>
+    <head>
+       <script>
+        function printPage()
+        {
+        window.print();
+        }
+        </script>
+        
+        </head>
+</div>
     <div class="logo">
         <a href="#" class="simple-text logo-normal">
             Resume <i class="material-icons">favorite</i>
@@ -38,6 +49,15 @@
                     <p>Log-Out</p>
                 </a>
             </li>
+
+            <li class="nav-item">
+                
+                 <button onclick="printPage()"> <b>Print Page</b></button>
+                
+            </li>
         </ul>
     </div>
+
+    
+
 </div>
